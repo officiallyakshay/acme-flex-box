@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+}
+
+#nav {
+
+	background-color: dodgerBlue;
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+
+a {
+	text-decoration: none;
+}
