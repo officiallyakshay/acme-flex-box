@@ -5,14 +5,24 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <div id="logo">
-    <a href="#">Acme Layout</a>
-  </div>
 	<div id="nav">
-		<a href="#" id="users">Users</a>
-		<a href="#">Departments</a>
-		<a href="#">Contact</a>
+    	<a href="#" id="logo">Acme Layout</a>
+		<a href="#" id="users" class="navlink">Users</a>
+		<a href="#" class="navlink">Departments</a>
+		<a href="#" class="navlink">Contact</a>
 	</div>
+
+	<div id="userName">Users</div>
+
+	<div id="box1">
+		<div id="createUser">Create A User</div>
+		<div id="firstName">First Name<input type="text" placeholder="Jane"></input></div>
+		<div id="lastName">Last Name<input type="text" placeholder="Doe"></input></div>
+		<div class="dropdown">
+		  <button class="dropbtn" type="dropdown">Dropdown</button>
+		</div>
+	</div>
+	
 
 </body>
 </html>
