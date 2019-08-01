@@ -3,23 +3,78 @@
 <head>
 	<title>Acme</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
-</head>
+</head> 
 <body>
-	<div id="nav">
+	<header>
     	<a href="#" id="logo">Acme Layout</a>
-		<a href="#" id="users" class="navlink">Users</a>
-		<a href="#" class="navlink">Departments</a>
-		<a href="#" class="navlink">Contact</a>
+    	<nav>
+			<a href="#" id="users" class="navlink">Users</a>
+			<a href="#" class="navlink">Departments</a>
+			<a href="#" class="navlink">Contact</a>
+		</nav>
+	</header>
 	</div>
 
-	<div id="userName">Users</div>
-
-	<div id="box1">
-		<div id="createUser">Create A User</div>
-		<div id="firstName">First Name<input type="text" placeholder="Jane"></input></div>
-		<div id="lastName">Last Name<input type="text" placeholder="Doe"></input></div>
-		<div class="dropdown">
-		  <button class="dropbtn" type="dropdown">Dropdown</button>
+	<div id="content">
+		<h1>Users</h1>
+		<form>
+			<h1>Create A User</h1>
+			<div>
+				<label>First Name</label>
+				<input />
+			</div>
+			<div>
+				<label>Last Name</label>
+				<input />
+			</div>
+			<div>
+				<label>Department</label>
+				<select>
+					<option value=''>-- None --</option>
+					<option value=''>Administration</option>
+					<option value=''>Human Resources</option>
+					<option value=''>Engineering</option>
+				</select>
+			</div>
+			<div class="button-row">
+				<button>Clear</button>
+				<button class='primary'>Save</button>
+			</div>
+		</form>
+		<div class='tiles'>
+			<div>
+				<h4>User A</h4>
+				<div>Some text</div>
+			</div>
+			<div>
+				<h4>User A</h4>
+				<div>
+					Some text
+					Some text
+					Some text
+					Some text
+					Some text
+				</div>
+		</div>
+		<div>
+			<h4>User A</h4>
+			<div>Some text</div>
+		</div>
+		<div>
+			<h4>User A</h4>
+			<div>Some text</div>
+		</div>
+		<div>
+			<h4>User A</h4>
+			<div>Some text</div>
+		</div>
+		<div>
+			<h4>User A</h4>
+			<div>Some text</div>
+		</div>
+		<div>
+			<h4>User A</h4>
+			<div>Some text</div>
 		</div>
 	</div>
 	
